@@ -1,0 +1,333 @@
+body {
+  height: 2145px;
+  background: #fffffff7 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-image: url("../assets/circle.svg"), url("../assets/blob-small.svg"),
+    url("../assets//sol_wave_bg.svg"), url("../assets/accounting_dots.svg"),
+    url("../assets/accounting_dots.svg");
+  background-position: right top, left 200px, bottom, 500px 800px, right 920px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  padding: 15px;
+  font-family: "Open Sans";
+}
+
+// .super {
+
+// }
+
+.main-container-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  .logo_img {
+    width: 123px;
+    height: 123px;
+    margin-left: 60px;
+  }
+  .left_container {
+    margin: 200px 0 0 140px;
+    .text {
+      font-weight: 500;
+      font-size: 40px;
+      padding-bottom: 10px;
+      font-family: "Open Sans";
+    }
+    .svgImg {
+      height: 20px;
+    }
+  }
+}
+.right_container {
+  .menu_container {
+    display: flex;
+    margin: 32px 50px 0px 0;
+    .menu {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      width: 103px;
+      height: 34px;
+      font-family: "Open Sans";
+      &:hover {
+        color: #663399;
+        cursor: pointer;
+      }
+    }
+    .button {
+      // top: 63px;
+      // left: 1480px;
+      font-size: 15px;
+      width: 118px;
+      height: 45px;
+      box-shadow: 0px 0px 20px #00000033;
+      border: 2px solid #663399;
+      border-radius: 24px;
+      margin-left: 15px;
+      opacity: 1;
+      font-family: "Open Sans";
+      &.getStarted {
+        color: white;
+        background: transparent linear-gradient(90deg, #9f62c9 0%, #663399 100%)
+          0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 20px #00000033;
+        border-radius: 24px;
+      }
+      &:hover {
+        background-color: #663399;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .right_bottom_continer {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    margin-top: 180px;
+    position: relative;
+    .calculator_card {
+      width: 330px;
+      height: 400px;
+      border-radius: 15px;
+      background: white;
+    }
+    .loan_amount {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 8px;
+      height: 350px;
+      width: 220px;
+      background-color: #663399;
+      color: white;
+      border-radius: 0px 20px 20px 0px;
+      h3 {
+        font-size: 15px;
+        font-family: "Montserrat";
+      }
+      p {
+        font-size: 20px;
+        font-family: "Montserrat";
+        font-weight: 700;
+      }
+    }
+    .getMoney_button {
+      min-height: 40px;
+      min-width: 120px;
+      margin-top: 20px;
+      border-radius: 25px;
+      font-size: 15px;
+      font-family: "Montserrat";
+    }
+    h2 {
+      text-align: center;
+    }
+    .monthly_divs {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-size: 14px;
+        font-family: "Montserrat";
+      }
+    }
+    .rs_div {
+      display: flex;
+      justify-content: space-between;
+      p{
+        font-family: 'Montserrat';
+        font-size: 11px;
+      }
+    }
+  }
+  .calc_form {
+    margin-left: 14px;
+    margin-right: 10px;
+    flex-direction: column;
+    display: flex;
+    font-family: "Montserrat";
+    div {
+      display: flex;
+      place-content: space-between;
+    }
+    h5 {
+      font-family: "Montserrat";
+    }
+  }
+}
+.main-container-2 {
+  display: flex;
+  .left_card_div {
+    margin-top: 50px;
+  }
+  .cards {
+    // box-shadow: 0px 0px 30px #2321321f;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    opacity: 1;
+    width: 391px;
+    height: 253px;
+    box-shadow: 0px 0px 30px #2321321f;
+    background-color: white;
+    margin: 100px 0 0 145px;
+    &.left_card {
+      margin: 100px 0 0 0;
+    }
+    &:hover {
+      background-color: rgba(125, 70, 180, 0.5);
+      box-shadow: none;
+      color: #fff;
+    }
+  }
+  .card_img {
+    width: 90px;
+    height: 90px;
+  }
+  .text {
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: "Montserrat";
+  }
+  .svgImg {
+    height: 20px;
+    padding-top: 20px;
+  }
+  .tag_h3 {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Open Sans";
+  }
+  .tag_h5 {
+    font-size: 15px;
+    color: #707070;
+    font-family: "Open Sans";
+  }
+  .business_h3 {
+    color: #707070;
+    margin-bottom: 0;
+    font-family: "Montserrat";
+  }
+  .openLink {
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+    width: 279px;
+    height: 58px;
+    margin-top: 70px;
+    color: #663399;
+    font-size: 18px;
+    background: transparent;
+    &:hover {
+      background-color: #663399;
+      color: white;
+    }
+  }
+  font_style {
+    font-family: "Montserrat";
+  }
+}
+// .product {
+//   display: flex;
+//   align-items: center;
+//   font-size: 18px;
+//   width: 103px;
+//   height: 34px;
+//   // margin: 40px;
+// }
+// .solution {
+//   display: flex;
+//   align-items: center;
+//   font-size: 18px;
+//   width: 108px;
+//   height: 34px;
+//   // margin: 40px;
+// }
+// .pricing {
+//   display: flex;
+//   align-items: center;
+//   font-size: 18px;
+//   width: 79px;
+//   height: 34px;
+//   // margin: 40px;
+// }
+
+mat-card {
+  box-shadow: 0px 0px 30px #2321321f;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  // opacity: 1;
+  // width: 391px;
+  // height: 253px;
+  // :hover {
+  //   color: blue;
+  // }
+  // margin: 100px 0 0 145px;
+}
+p {
+  font-family: Lato;
+}
+mat-slider {
+  width: 300px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 14px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 15px;
+  left: 1px;
+  bottom: 0px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #663399;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #663399;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
